@@ -9,7 +9,7 @@ int main()
   int p;
   char name[30];
   printf("who are you ?\n>");
-  scanf("%s",&name);
+  scanf("%s",name);
   printf("Hello %s!\n",name);
 
   printf("Tossing a coin...\n");
@@ -27,4 +27,6 @@ int main()
     }
   }
   printf("Heads: %d, Tails: %d\n",head,tail);
+
+  return 0;
 }
