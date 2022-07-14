@@ -7,6 +7,11 @@ int main()
   int tail=0;
   int head=0;
   int p;
+  char name[30];
+  printf("who are you ?\n>");
+  scanf("%s",name);
+  printf("Hello %s!\n",name);
+
   printf("Tossing a coin...\n");
   for(i=0;i<3;i++)
   {
@@ -24,11 +29,12 @@ int main()
   printf("Heads: %d, Tails: %d\n",head,tail);
   if(head>tail)
   {
-    printf("You won\n");
+    printf("%s won\n",name);
   }
   else
   {
-    printf("You lose\n");
+    printf("%s lose\n",name);
   }
+
   return 0;
 }
