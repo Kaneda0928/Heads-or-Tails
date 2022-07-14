@@ -7,6 +7,11 @@ int main()
   int tail=0;
   int head=0;
   int p;
+  char name[30];
+  printf("who are you ?\n>");
+  scanf("%s",&name);
+  printf("Hello %s!\n",name);
+
   printf("Tossing a coin...\n");
   for(i=0;i<3;i++)
   {
